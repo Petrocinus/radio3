@@ -75,9 +75,11 @@ html{
     padding-top: 2vh;
 }
 .equalizer{
-    width: 100%;
+    width: 100px;
     border: 2px solid black;
-    height: 10vh;
+    min-height: 100px;
+    border-radius: 50%;
+    background: red;
 }
 a{
     font-style: normal;
